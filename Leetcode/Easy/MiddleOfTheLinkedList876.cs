@@ -1,19 +1,7 @@
-﻿namespace ComputitivePrograming.Leetcode.Easy
-{
-    /// <summary>
-    /// Linked List Node
-    /// </summary>
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-    }
+﻿using ComputitivePrograming.Leetcode.LinkedList;
 
+namespace ComputitivePrograming.Leetcode.Easy
+{
     /// <summary>
     /// Solution of the problem
     /// 876. Get the middle of a linked list
